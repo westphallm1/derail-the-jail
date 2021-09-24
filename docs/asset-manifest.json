@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.daddc7a0.chunk.css",
+    "main.js": "/static/js/main.60fbbd0a.chunk.js",
+    "main.js.map": "/static/js/main.60fbbd0a.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.6a9ec6b4.js",
+    "runtime-main.js.map": "/static/js/runtime-main.6a9ec6b4.js.map",
+    "static/js/2.5d667fd9.chunk.js": "/static/js/2.5d667fd9.chunk.js",
+    "static/js/2.5d667fd9.chunk.js.map": "/static/js/2.5d667fd9.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.daddc7a0.chunk.css.map": "/static/css/main.daddc7a0.chunk.css.map",
+    "static/js/2.5d667fd9.chunk.js.LICENSE.txt": "/static/js/2.5d667fd9.chunk.js.LICENSE.txt",
+    "static/media/bg_large.04b49035.jpg": "/static/media/bg_large.04b49035.jpg",
+    "static/media/bg_large2.b96e1d8b.jpg": "/static/media/bg_large2.b96e1d8b.jpg",
+    "static/media/jac_logo.0f48cbde.png": "/static/media/jac_logo.0f48cbde.png",
+    "static/media/jail_demographics.cc7899ed.png": "/static/media/jail_demographics.cc7899ed.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6a9ec6b4.js",
+    "static/js/2.5d667fd9.chunk.js",
+    "static/css/main.daddc7a0.chunk.css",
+    "static/js/main.60fbbd0a.chunk.js"
+  ]
+}
