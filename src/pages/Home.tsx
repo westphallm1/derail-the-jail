@@ -1,7 +1,7 @@
 import { Button } from '@material-ui/core';
 import React from 'react';
 import bgLarge from '../img/bg_large.jpg';
-import caresLogo from '../img/cares_logo.png';
+import bgLarge2 from '../img/bg_large2.jpg';
 import jailDemographics from '../img/jail_demographics.png';
 
 export default ({...props}) => {
@@ -51,6 +51,10 @@ export default ({...props}) => {
             <img src={jailDemographics} />
           </div>
         </div>
+      </div>
+      <div className="hero-image" style={{backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(${bgLarge2})`}}>
+        <h1>Find out More!</h1>
+        <Button variant="contained">Resources</Button>
       </div>
     </div>
   )
