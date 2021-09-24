@@ -1,6 +1,8 @@
 import { Button } from '@material-ui/core';
 import React from 'react';
 import bgLarge from '../img/bg_large.jpg';
+import caresLogo from '../img/cares_logo.png';
+import jailDemographics from '../img/jail_demographics.png';
 
 export default ({...props}) => {
   return (
@@ -22,9 +24,33 @@ export default ({...props}) => {
       </div>
       <div className="summary">
         <h1>Facts about the Jail</h1>
-        <ul>
-          <li></li>
-        </ul>
+        <div className="flex-row">
+          <ul>
+            <li>
+              <span>
+                The jail disporportionately targets people of color. Over half of the people incarcerated in the dane county jail are black,
+                compared to just 6% of the dane county population.
+              </span>
+            </li>
+            <li>
+              <span>
+                Proponents of the new jail say the current jail is unsafe - but any jail is unsafe. In December, jail guards broke
+                an incarcerted man's hip in an altercation, then waited over 15 hours to provide him with any medical attention.
+                New facilities can't fix a system this deeply broken.
+              </span>
+            </li>
+            <li>
+              <span>
+                More humane alternatives <span className="bold">are</span> possible. In August of 2021, Madison launched the 
+                Community Alternative Response for Emergency Services (CARES). This pilot program creates two teams of 
+                trained mental professionals to address mental health crises without the involvement of law enforcement.
+              </span>
+            </li>
+          </ul>
+          <div className="flex-column">
+            <img src={jailDemographics} />
+          </div>
+        </div>
       </div>
     </div>
   )
