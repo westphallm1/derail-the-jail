@@ -13,7 +13,7 @@ export default ({...props}) => {
         <Link to="/">Home</Link>
         <Link to="/about_us">About Us</Link>
         <Link to="/updates">Updates</Link>
-        <Link to="/get_involved">Get Invovled</Link>
+        <Link to="/get_involved">Get Involved</Link>
       </div>
     </div>
   )

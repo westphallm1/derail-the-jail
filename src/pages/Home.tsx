@@ -1,12 +1,13 @@
 import { Button } from '@material-ui/core';
 import React from 'react';
+import { Link } from 'react-router-dom';
 import bgLarge from '../img/bg_large.jpg';
 import bgLarge2 from '../img/bg_large2.jpg';
 import jailDemographics from '../img/jail_demographics.png';
 
 export default ({...props}) => {
   return (
-    <div className="Home">
+    <div className="Content">
       <div className="summary">
         <h1>Build the People, not the Jail!</h1>
         <p>
@@ -20,7 +21,7 @@ export default ({...props}) => {
       </div>
       <div className="hero-image" style={{backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(${bgLarge})`}}>
         <h1>Get Involved Today!</h1>
-        <Button variant="contained">Take Action</Button>
+        <Button component={Link} to="/get_involved" variant="contained">Take Action</Button>
       </div>
       <div className="summary">
         <h1>Facts about the Jail</h1>

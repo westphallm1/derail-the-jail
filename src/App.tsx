@@ -6,6 +6,7 @@ import Header from './components/Header';
 import { Route, Switch } from 'react-router';
 import Home from './pages/Home';
 import Footer from './components/Footer';
+import GetInvolved from './pages/GetInvolved';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Header />
 
       <Switch>
+        <Route path="/get_involved" component={GetInvolved} />
         <Route path="/" component={Home} />
       </Switch>
 
