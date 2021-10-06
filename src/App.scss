@@ -94,6 +94,18 @@ body {
       align-self: center;
     }
   }
+
+  & .link-holder {
+    display: flex;
+    justify-content: center;
+    & a {
+      align-self: center;
+      text-decoration: none;    
+      text-transform: capitalize;
+      color:inherit;
+      padding-left: 16px;
+    }
+  }
 }
 
 .Content {
@@ -186,4 +198,10 @@ body {
 
 .bold {
   font-weight: bold;
+}
+
+@media (max-width: 930px) {
+  .sm-col {
+    flex-direction: column;
+  }
 }

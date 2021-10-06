@@ -26,7 +26,7 @@ export default ({...props}) => {
       </HeroImage>
       <div className="summary">
         <h1>Facts about the Jail</h1>
-        <div className="flex-row">
+        <div className="flex-row sm-col">
           <ul>
             <li>
               <span>
