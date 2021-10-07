@@ -1,12 +1,15 @@
 import { Button } from '@material-ui/core';
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import { setPageTitle } from '../app/utils';
 import HeroImage from '../components/HeroImage';
 import bgLarge from '../img/bg_large.jpg';
 import bgLarge2 from '../img/bg_large2.jpg';
 import jailDemographics from '../img/jail_demographics.png';
 
 export default ({...props}) => {
+  useEffect(()=>setPageTitle("Home"),[]);
+
   return (
     <div className="Content">
       <div className="summary">

@@ -5,8 +5,12 @@ import jailDemographics from '../img/jail_demographics.png';
 import { Link } from 'react-router-dom';
 import HeroImage from '../components/HeroImage';
 import { Button } from '@material-ui/core';
+import { useEffect } from 'react';
+import { setPageTitle } from '../app/utils';
 
 export default ({...props}) => {
+  useEffect(()=>setPageTitle("About Us"),[]);
+
   return (
     <div className="Content AboutUs">
       <div className="summary">
