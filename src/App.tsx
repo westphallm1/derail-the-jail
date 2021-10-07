@@ -7,6 +7,8 @@ import { Route, Switch } from 'react-router';
 import Home from './pages/Home';
 import Footer from './components/Footer';
 import GetInvolved from './pages/GetInvolved';
+import Resources from './pages/Resources';
+import AboutUs from './pages/AboutUs';
 
 function App() {
   return (
@@ -14,6 +16,8 @@ function App() {
       <Header />
 
       <Switch>
+        <Route path="/about_us" component={AboutUs} />
+        <Route path="/resources" component={Resources} />
         <Route path="/get_involved" component={GetInvolved} />
         <Route path="/" component={Home} />
       </Switch>

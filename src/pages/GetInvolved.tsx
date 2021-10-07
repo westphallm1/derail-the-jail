@@ -13,7 +13,7 @@ export default ({...props}) => {
       <div className="summary">
         <h1>Get Involved to stop the Dane County Jail Expansion!</h1>
       </div>
-      <HeroImage bgImage={yardSign} style={{ backgroundPositionY:'70px', minHeight:'240px' }} />
+      <HeroImage bgImage={yardSign} style={{ minHeight:'240px' }} />
       <div className="summary">
         <h1>Join The Campaign</h1>
         <p>
