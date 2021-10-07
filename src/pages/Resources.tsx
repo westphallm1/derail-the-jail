@@ -7,7 +7,7 @@ import HeroImage from '../components/HeroImage';
 import { useEffect } from 'react';
 import { setPageTitle } from '../app/utils';
 import ResourceInfo from '../components/ResourceInfo';
-import { FaChartLine, FaDollarSign, FaChartArea, FaChartBar, FaHospital, FaHospitalAlt } from 'react-icons/fa';
+import { FaChartLine, FaDollarSign, FaChartArea, FaChartBar, FaHospital, FaHospitalAlt, FaToolbox, FaCashRegister, FaBroadcastTower } from 'react-icons/fa';
 import { GiHandcuffs, GiHeartBeats, GiInjustice } from 'react-icons/gi';
 
 export default ({...props}) => {
@@ -16,11 +16,8 @@ export default ({...props}) => {
   return (
     <div className="Content Resources">
       <div className="summary">
-        <h1 style={{textAlign:'center'}}>Articles and Resources</h1>
-      </div>
-      <HeroImage bgImage={yardSign} style={{ minHeight:'240px' }} />
-      <div className="summary">
         {/** Todo maybe generate this dynamically? No real reason to at the moment */}
+        <h1 style={{textAlign:'center'}}>Articles and Resources</h1>
         <h2>The Cost of the Jail</h2>
         <div className="flex-row sm-col">
           <ResourceInfo
@@ -74,6 +71,7 @@ export default ({...props}) => {
           />
         </div>
       </div>
+      <HeroImage bgImage={yardSign} />
       <div className="summary">
         <h2>Alternatives to Imprisonment</h2>
         <div className="flex-row sm-col">
@@ -132,6 +130,63 @@ export default ({...props}) => {
         </div>
       </div>
       <HeroImage bgImage={bgLarge} />
+      <div className="summary">
+        <h2>Prison Abolition Resources</h2>
+        <div className="flex-row sm-col">
+          <ResourceInfo
+            title="The Myths that Prop Up Mass Incarceration"
+            summary={
+              <span>
+                One of the most widespread myths is that prisons are necessary to keep communities safe. If this were
+                true, then the United States, which currently imprisons 25% of the world's prison population, should
+                be the safest country in the world. Learn this claim and other myths about prisons are used to 
+                prop up the system.
+              </span>
+            }
+            icon={<FaBroadcastTower/>}
+            url="https://truthout.org/articles/to-end-mass-incarceration-we-need-to-bust-the-myths-that-prop-it-up/"
+          />
+          <ResourceInfo
+            title="The Critical Resistance Abolition Toolkit"
+            summary={
+              <span>
+                This toolkit was developed by members of Critical Resistance to consolidate ideas and 
+                resources for understanding the Prison Industrial complex, and taking concrete steps 
+                towards its abolition. 
+              </span>
+            }
+            icon={<FaToolbox/>}
+            url="http://criticalresistance.org/wp-content/uploads/2012/06/CR-Abolitionist-Toolkit-online.pdf"
+          />
+        </div>
+        <div className="flex-row sm-col">
+          <ResourceInfo
+            title="Abolishing Cash Bail"
+            summary={
+              <span>
+                Reducing the impact of pretrial punishment systems such as cash bail is an important step towards 
+                abolishing the Prison Industrial Complex. This toolkit from Critical Resistance contains resources
+                for organizing to oppose punitive pretrial measures.
+              </span>
+            }
+            icon={<FaCashRegister/>}
+            url="http://criticalresistance.org/on-the-road-to-freedom-an-abolitionist-assessment-of-pretrial-and-bail-reforms/"
+          />
+          <ResourceInfo
+            title="How to Stop a Jail in Your Town"
+            summary={
+              <span>
+                <em>How to Stop a Jail in Your Town</em> is a compilation of general prison abolitionist resources. 
+                It contains guides and fact sheets related to the impact of the prison industrial complex, as well
+                as organizing instructions for opposing local prison expansions.
+              </span>
+            }
+            icon={<GiInjustice/>}
+            url="http://curbprisonspending.org/wp-content/uploads/2013/09/How-to-Stop-a-Jail-in-Your-Town-Final.pdf"
+          />
+        </div>
+      </div>
+      <HeroImage bgImage={bgLarge2} />
     </div>
   )
 }
