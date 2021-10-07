@@ -59,7 +59,7 @@ export default ({...props}) => {
       </div>
       <HeroImage bgImage={bgLarge2}>
         <h1>Find out More!</h1>
-        <Button variant="contained">Resources</Button>
+        <Button component={Link} to="/resources" variant="contained">Resources</Button>
       </HeroImage>
     </div>
   )
