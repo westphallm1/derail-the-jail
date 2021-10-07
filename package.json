@@ -1,6 +1,6 @@
 {
   "name": "jac-website",
-  "homepage": "https://westphallm1.github.io/derail-the-jail/",
+  "homepage": "https://westphallm1.github.io/derail-the-jail/build",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

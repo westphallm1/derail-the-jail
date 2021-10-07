@@ -9,7 +9,8 @@
 /coverage
 
 # production
-/build
+# need to commit for gh-pages
+# /build 
 
 # misc
 .DS_Store
