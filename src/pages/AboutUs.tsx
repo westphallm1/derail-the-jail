@@ -1,6 +1,8 @@
 import bgLarge from '../img/bg_large.jpg';
 import bgLarge2 from '../img/bg_large2.jpg';
 import yardSign from '../img/yardSign.jpg';
+import dsaLogo from '../img/dsa_logo.png';
+import a4blLogo from '../img/a4bl_logo.jpg';
 import jailDemographics from '../img/jail_demographics.png';
 import { Link } from 'react-router-dom';
 import HeroImage from '../components/HeroImage';
@@ -17,11 +19,10 @@ export default ({...props}) => {
         {/** Todo maybe generate this dynamically? No real reason to at the moment */}
         <h1>About Us</h1>
         <p>
-          <span className="bold">Derail the Dane County Jail</span> was founded in 2020 
-          by members of the <a href="https://madison-dsa.org/">Democratic Socialists of America - Madison </a>
-          to continue the work of countless community activists in opposing the construction of a new 
-          $255 million jail project in 
-          Dane County. Amid the deepening crises of houselessness, institutional racism, 
+          <span className="bold">Derail the Dane County Jail</span> is 
+          an ongoing project started by community activists and organizations in Dane County 
+          to oppose the construction of a new $255 million jail project. 
+          Amid the deepening crises of houselessness, institutional racism, 
           addiction, and poverty, our county leaders have chosen to prioritize building a new,
           dehumanizing jail. We have come together as a community to demand the immediate 
           termination of the jail consolidation project, and the implementation of humane and 
@@ -45,19 +46,31 @@ export default ({...props}) => {
         </p>
       </div>
       <HeroImage bgImage={bgLarge}>
-        <h1>Our Mission</h1>
-        <p>
+        {/* <h1>Our Mission</h1> */}
+        <p style={{maxWidth:'650px', fontSize:'20px',fontWeight:'bold'}}>
           We envision a Dane County where restorative justice and the health of the community 
           are prioritized over incarceration and punishment
         </p>
+        <Button href="https://docs.google.com/document/d/1wLXgV_3y_6D_N7Gh9jdgRn0wkrKVIf4CcIgw_kjBdoY/edit?usp=sharing" variant="contained">Read the full statement</Button>
       </HeroImage>
       <div className="summary">
         <h1>Coalition Building</h1>
         <p>
           Derail the Dane County Jail is just getting started! If you're interested in joining the fight 
           for a Dane County where restorative justice and community health are prioritized over 
-          incarceration and punishment, please consider <Link to="get_involved">joining the campagin!</Link>
+          incarceration and punishment, please consider <Link to="get_involved">joining the campaign!</Link>
         </p>
+        <h2>Supporting Organizations</h2>
+        <div className="flex-row" style={{justifyContent:"space-around"}}>
+          <div className="org-holder">
+            <img src={dsaLogo}/>
+            <span>Democratic Socialists of America - Madison</span>
+          </div>
+          <div className="org-holder">
+            <img src={a4blLogo}/>
+            <span>Allies for Black Lives - Madison</span>
+          </div>
+        </div>
       </div>
       <HeroImage bgImage={yardSign} innerStyle={{justifyContent:'center'}}>
         <Button component={Link} to="/get_involved" variant="contained">Get Involved!</Button>

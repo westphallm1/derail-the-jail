@@ -226,6 +226,20 @@ body {
     font-size: 18px;
     text-align: center;
   }
+
+  & .org-holder {
+    display: flex;
+    flex-direction: column;
+    width: 164px;
+    text-align: center;
+    padding-bottom: 32px;
+    & img {
+      align-self: center;
+      width: 128px;
+      height: 128px;
+      border-radius: 64px;
+    }
+  }
 }
 
 .ResourceInfo {

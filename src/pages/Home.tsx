@@ -15,9 +15,10 @@ export default ({...props}) => {
       <div className="summary">
         <h1>Build the People, not the Jail!</h1>
         <p>
-          <span className="bold">Derail the Dane County Jail</span> was founded in 2020 
-          to oppose the construction of a new $255 million jail project in 
-          Dane County. Amid the deepening crises of houselessness, institutional racism, 
+          <span className="bold">Derail the Dane County Jail</span> is an ongoing effort
+          by community activists and supporting organizations to oppose the construction of 
+          a new $255 million jail project in Dane County. 
+          Amid the deepening crises of houselessness, institutional racism, 
           addiction, and poverty, our county leaders have chosen to prioritize building a new,
           dehumanizing jail. We have come together as a community to demand the immediate 
           termination of the jail consolidation project, and the implementation of humane and 
@@ -33,14 +34,14 @@ export default ({...props}) => {
           <ul>
             <li>
               <span>
-                The jail disporportionately targets people of color. Over half of the people incarcerated in the dane county jail are black,
+                The jail disproportionately targets people of color. Over half of the people incarcerated in the dane county jail are black,
                 compared to just 6% of the dane county population.
               </span>
             </li>
             <li>
               <span>
                 Proponents of the new jail say the current jail is unsafe - but any jail is unsafe. In December, jail guards broke
-                an incarcerted man's hip in an altercation, then waited over 15 hours to provide him with any medical attention.
+                an incarcerated man's hip in an altercation, then waited over 15 hours to provide him with any medical attention.
                 New facilities can't fix a system this deeply broken.
               </span>
             </li>

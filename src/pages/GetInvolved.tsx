@@ -29,7 +29,7 @@ export default ({...props}) => {
         </a>
       </HeroImage>
       <div className="summary">
-        <h1>Contact Your Representitive</h1>
+        <h1>Contact Your Representative</h1>
         <p>
           Contact your County Board supervisor and tell them that we want no new jail, and that the millions 
           of dollars alloted for the jail would be better spent on programs that focus on rehabilitation and 
