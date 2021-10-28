@@ -190,6 +190,10 @@ body {
   & .hero-image {
     min-height: 160px;
   }
+  & a {
+    text-decoration: none;    
+    color:#0000EE;
+  }
 }
 
 .flex-row {

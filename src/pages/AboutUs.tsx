@@ -46,12 +46,8 @@ export default ({...props}) => {
         </p>
       </div>
       <HeroImage bgImage={bgLarge}>
-        {/* <h1>Our Mission</h1> */}
-        <p style={{maxWidth:'650px', fontSize:'20px',fontWeight:'bold'}}>
-          We envision a Dane County where restorative justice and the health of the community 
-          are prioritized over incarceration and punishment
-        </p>
-        <Button href="https://docs.google.com/document/d/1wLXgV_3y_6D_N7Gh9jdgRn0wkrKVIf4CcIgw_kjBdoY/edit?usp=sharing" variant="contained">Read the full statement</Button>
+        <h1>Our Mission</h1>
+        <Button href="https://westphallm1.github.io/derail-the-jail/jac-statement.pdf" target="_blank" variant="contained">Read the full statement</Button>
       </HeroImage>
       <div className="summary">
         <h1>Coalition Building</h1>
@@ -61,7 +57,7 @@ export default ({...props}) => {
           incarceration and punishment, please consider <Link to="get_involved">joining the campaign!</Link>
         </p>
         <h2>Supporting Organizations</h2>
-        <div className="flex-row" style={{justifyContent:"space-around"}}>
+        <div className="flex-row sm-col" style={{justifyContent:"space-around"}}>
           <div className="org-holder">
             <img src={dsaLogo}/>
             <span>Democratic Socialists of America - Madison</span>

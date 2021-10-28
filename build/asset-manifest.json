@@ -1,25 +1,27 @@
 {
   "files": {
-    "main.css": "/derail-the-jail/build/static/css/main.eb90dfc2.chunk.css",
-    "main.js": "/derail-the-jail/build/static/js/main.2632fc7e.chunk.js",
-    "main.js.map": "/derail-the-jail/build/static/js/main.2632fc7e.chunk.js.map",
+    "main.css": "/derail-the-jail/build/static/css/main.ecc6b14e.chunk.css",
+    "main.js": "/derail-the-jail/build/static/js/main.16ab3023.chunk.js",
+    "main.js.map": "/derail-the-jail/build/static/js/main.16ab3023.chunk.js.map",
     "runtime-main.js": "/derail-the-jail/build/static/js/runtime-main.5b77c2b7.js",
     "runtime-main.js.map": "/derail-the-jail/build/static/js/runtime-main.5b77c2b7.js.map",
-    "static/js/2.443d70f6.chunk.js": "/derail-the-jail/build/static/js/2.443d70f6.chunk.js",
-    "static/js/2.443d70f6.chunk.js.map": "/derail-the-jail/build/static/js/2.443d70f6.chunk.js.map",
+    "static/js/2.1ddf7853.chunk.js": "/derail-the-jail/build/static/js/2.1ddf7853.chunk.js",
+    "static/js/2.1ddf7853.chunk.js.map": "/derail-the-jail/build/static/js/2.1ddf7853.chunk.js.map",
     "index.html": "/derail-the-jail/build/index.html",
-    "static/css/main.eb90dfc2.chunk.css.map": "/derail-the-jail/build/static/css/main.eb90dfc2.chunk.css.map",
-    "static/js/2.443d70f6.chunk.js.LICENSE.txt": "/derail-the-jail/build/static/js/2.443d70f6.chunk.js.LICENSE.txt",
+    "static/css/main.ecc6b14e.chunk.css.map": "/derail-the-jail/build/static/css/main.ecc6b14e.chunk.css.map",
+    "static/js/2.1ddf7853.chunk.js.LICENSE.txt": "/derail-the-jail/build/static/js/2.1ddf7853.chunk.js.LICENSE.txt",
+    "static/media/a4bl_logo.5b765954.jpg": "/derail-the-jail/build/static/media/a4bl_logo.5b765954.jpg",
     "static/media/bg_large.04b49035.jpg": "/derail-the-jail/build/static/media/bg_large.04b49035.jpg",
     "static/media/bg_large2.b96e1d8b.jpg": "/derail-the-jail/build/static/media/bg_large2.b96e1d8b.jpg",
+    "static/media/dsa_logo.15b8b471.png": "/derail-the-jail/build/static/media/dsa_logo.15b8b471.png",
     "static/media/jac_logo.0f48cbde.png": "/derail-the-jail/build/static/media/jac_logo.0f48cbde.png",
     "static/media/jail_demographics.cc7899ed.png": "/derail-the-jail/build/static/media/jail_demographics.cc7899ed.png",
     "static/media/yardSign.f95a8e00.jpg": "/derail-the-jail/build/static/media/yardSign.f95a8e00.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.5b77c2b7.js",
-    "static/js/2.443d70f6.chunk.js",
-    "static/css/main.eb90dfc2.chunk.css",
-    "static/js/main.2632fc7e.chunk.js"
+    "static/js/2.1ddf7853.chunk.js",
+    "static/css/main.ecc6b14e.chunk.css",
+    "static/js/main.16ab3023.chunk.js"
   ]
 }

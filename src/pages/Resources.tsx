@@ -187,6 +187,13 @@ export default ({...props}) => {
         </div>
       </div>
       <HeroImage bgImage={bgLarge2} />
+      <div className="summary">
+        <h2>Additional Resources</h2>
+        <p>
+          For additional resources, recent news about the jail, and links to other important campaign information,
+          please visit Derail the Jail's <a href="http://linktr.ee/dsamadison">Linktree</a>.
+        </p>
+      </div>
     </div>
   )
 }
